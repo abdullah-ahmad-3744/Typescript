@@ -16,4 +16,6 @@ let isActive:boolean = true
 let isInStock:boolean = true
 
 
+// BigInt in Typesscript
+let bigInt:bigint = 73783372392802194829n
 
