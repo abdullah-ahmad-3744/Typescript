@@ -14,4 +14,9 @@ let isActive = true;
 let isInStock = true;
 // BigInt in Typesscript
 let bigInt = 73783372392802194829n;
+// Null in Typesscript
+let temperature = null;
+// Undefined in Typesscript
+let temperature2;
+let temperature3 = undefined;
 //# sourceMappingURL=app.js.map

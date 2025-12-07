@@ -19,3 +19,13 @@ let isInStock:boolean = true
 // BigInt in Typesscript
 let bigInt:bigint = 73783372392802194829n
 
+
+// Null in Typesscript
+let temperature:null = null
+
+
+// Undefined in Typesscript
+let temperature2:undefined 
+let temperature3:undefined = undefined
+
+
