@@ -10,3 +10,10 @@ let userName:string = 'Muhammad Abdullah'
 let address:string = 'Dummy Addresss'
 
 
+// Creating Boolean variables in Typesscript
+let isUserLogged:boolean = false
+let isActive:boolean = true
+let isInStock:boolean = true
+
+
+
