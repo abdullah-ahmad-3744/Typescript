@@ -18,3 +18,19 @@ balance = "300"
 balance = true
 balance = null
 console.log(balance)
+
+
+// Unknown data type in Typescript
+let status:unknown
+status = 'active'
+status = true // unknown allows any type of vlaue in the variable 
+
+// unknown does not allow any furhter before checking the variable type 
+// shows error becuase of not checking the type 
+// status.toUpperCase()   
+
+
+// allowing further operations because of checking the type before operation
+if (typeof(status) === 'string') {
+    status.toUpperCase()   
+}
