@@ -9,6 +9,15 @@ let names = ['Ali', 'Ahmad', 'Hamza'];
 // Array containing mixed type values 
 let array3 = [1, 2, 3, 4, 'Ali', 'Hamza', true]; // here all types will be assigned automatically
 let array4 = [1, 2, 3, 4, 'Ali', 'Hamza', true];
+array4.push(10);
+array4.push("Faraz");
 // Adding a vlaue other than above types will give error 
-array4.push(null); // shows error becuase null is not from the above types 
+// array4.push(null)      // =====>  shows error becuase null is not from the above types 
+let arra5 = [10, 20, 30, 40, 50, true];
+arra5.push(100);
+arra5.push(false);
+// arra5.push("Ali") // give error becuase this type is not included in the array types.
+arra5.pop();
+arra5.length;
+// All the above operations are valid in the Typescript except the one where string is being added
 //# sourceMappingURL=app.js.map
