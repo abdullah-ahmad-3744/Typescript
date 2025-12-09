@@ -20,4 +20,6 @@ arra5.push(false);
 arra5.pop();
 arra5.length;
 // All the above operations are valid in the Typescript except the one where string is being added
+// Tupples in Typescript
+let tupple1 = [10, 'Tupple'];
 //# sourceMappingURL=app.js.map

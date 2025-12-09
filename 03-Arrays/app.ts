@@ -26,5 +26,9 @@ arra5.push(false)
 // arra5.push("Ali") // give error becuase this type is not included in the array types.
 arra5.pop()
 arra5.length
-
 // All the above operations are valid in the Typescript except the one where string is being added
+
+
+
+// Tupples in Typescript
+let tupple1:[number, string] = [10, 'Tupple']
