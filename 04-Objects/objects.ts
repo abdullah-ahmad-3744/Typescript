@@ -47,3 +47,35 @@ let customer2:customer = {
     id : 'ihd9f2y3rhiuewd',
     gender:"male"
 }
+
+
+// Objects by Interface
+interface admin {
+    name :string,
+    age: number,
+    position :string
+}
+
+// Creating an admin from the interface admin
+let admin1:admin = {
+    name: "Areeba Kan",
+    age : 23,
+    position : 'L1',
+    id : 12335343324
+}
+
+// Creating another interface with the same name Admin
+interface admin {
+    id : number
+}
+
+
+
+// Creating anohter admin2 from the Interface Admin
+let admin2:admin = {
+    name : "Abdullah Ahmad",
+    age : 25,
+    position: 'L3',
+    id: 23432432434435
+
+}

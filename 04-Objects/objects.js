@@ -35,4 +35,18 @@ let customer2 = {
     id: 'ihd9f2y3rhiuewd',
     gender: "male"
 };
+// Creating an admin from the interface admin
+let admin1 = {
+    name: "Areeba Kan",
+    age: 23,
+    position: 'L1',
+    id: 12335343324
+};
+// Creating anohter admin2 from the Interface Admin
+let admin2 = {
+    name: "Abdullah Ahmad",
+    age: 25,
+    position: 'L3',
+    id: 23432432434435
+};
 //# sourceMappingURL=objects.js.map
