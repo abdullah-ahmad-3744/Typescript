@@ -32,3 +32,6 @@ arra5.length
 
 // Tupples in Typescript
 let tupple1:[number, string] = [10, 'Tupple']
+
+// Tupple for the login details
+let loginDetails:[string,number]= ['Muhammad Abdullah', 1234567]   
