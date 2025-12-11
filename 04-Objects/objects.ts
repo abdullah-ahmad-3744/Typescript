@@ -69,7 +69,7 @@ interface admin {
     id : number
 }
 
-
+// Interfaces are powerfull becuase two nterfaces with the same can exist and the properties of both interfaces are merged in each and can be used by the objects
 
 // Creating anohter admin2 from the Interface Admin
 let admin2:admin = {
@@ -78,4 +78,28 @@ let admin2:admin = {
     position: 'L3',
     id: 23432432434435
 
+}
+
+// Person interface 
+interface person {
+    name : string,
+    age : number,
+    gender :string,
+    canVote :boolean,
+    idCard? :number
+}
+
+let person1 : person = {
+    name : "Ismail",
+    age :22,
+    gender : "male",
+    canVote : true,
+    idCard : 123456789
+}
+
+let person2:person = {
+    name : "M Amir",
+    age : 17,
+    gender : 'male',
+    canVote: false 
 }

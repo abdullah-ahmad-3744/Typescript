@@ -42,11 +42,25 @@ let admin1 = {
     position: 'L1',
     id: 12335343324
 };
+// Interfaces are powerfull becuase two nterfaces with the same can exist and the properties of both interfaces are merged in each and can be used by the objects
 // Creating anohter admin2 from the Interface Admin
 let admin2 = {
     name: "Abdullah Ahmad",
     age: 25,
     position: 'L3',
     id: 23432432434435
+};
+let person1 = {
+    name: "Ismail",
+    age: 22,
+    gender: "male",
+    canVote: true,
+    idCard: 123456789
+};
+let person2 = {
+    name: "M Amir",
+    age: 17,
+    gender: 'male',
+    canVote: false
 };
 //# sourceMappingURL=objects.js.map
