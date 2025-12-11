@@ -86,7 +86,7 @@ interface person {
     age : number,
     gender :string,
     canVote :boolean,
-    idCard? :number
+    idCardNum? :number
 }
 
 let person1 : person = {
@@ -94,7 +94,7 @@ let person1 : person = {
     age :22,
     gender : "male",
     canVote : true,
-    idCard : 123456789
+    idCardNum: 123456789
 }
 
 let person2:person = {
@@ -102,4 +102,36 @@ let person2:person = {
     age : 17,
     gender : 'male',
     canVote: false 
+}
+
+// Customer interface 
+
+interface bankCustomer {
+    name : string,
+    age :number,
+    accountActive : boolean,
+    balance : number
+}
+
+// using partial makes all properties optional
+let bankCustomer1: Partial<bankCustomer> = {
+    name : "Ali"
+}
+
+
+// Required makes all properties necsaary to use 
+let bankCustomer2: Required<bankCustomer> = {
+    name : "Ahmad",
+    age: 30,
+    accountActive: true,
+    balance : 10000
+}
+
+// Allows only to read the view the elements of the objects but no chnages are allowed
+let bankCustomer3: Readonly<bankCustomer> = {
+    name : "Bilal",
+    age : 21,
+    accountActive : false,
+    balance : 0.0
+
 }

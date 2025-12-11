@@ -55,12 +55,30 @@ let person1 = {
     age: 22,
     gender: "male",
     canVote: true,
-    idCard: 123456789
+    idCardNum: 123456789
 };
 let person2 = {
     name: "M Amir",
     age: 17,
     gender: 'male',
     canVote: false
+};
+// using partial makes all properties optional
+let bankCustomer1 = {
+    name: "Ali"
+};
+// Required makes all properties necsaary to use 
+let bankCustomer2 = {
+    name: "Ahmad",
+    age: 30,
+    accountActive: true,
+    balance: 10000
+};
+// Allows only to read the view the elements of the objects but no chnages are allowed
+let bankCustomer3 = {
+    name: "Bilal",
+    age: 21,
+    accountActive: false,
+    balance: 0.0
 };
 //# sourceMappingURL=objects.js.map
