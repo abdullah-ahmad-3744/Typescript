@@ -31,3 +31,11 @@ function oovertime(person?:string) {
 }
 oovertime("Ali") 
 oovertime() 
+
+
+
+// Arrow functions 
+const sum = (a:number,b:number):number => {
+    return a +b
+}
+sum(10,20)

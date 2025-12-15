@@ -23,4 +23,9 @@ function oovertime(person) {
 }
 oovertime("Ali");
 oovertime();
+// Arrow functions 
+const sum = (a, b) => {
+    return a + b;
+};
+sum(10, 20);
 //# sourceMappingURL=functions.js.map
