@@ -51,8 +51,8 @@ function placeOrder (order:number, callback:(amount:number)=> void):void {
 
 // Rest Parameter
 function total (...array:number[]) {
-    let answer = 0
-    array.forEach( (vale) => answer+vale)
+    let answer:number = 0
+    array.forEach( (vale:number) => answer = answer+vale)
     console.log(answer)
 }
 

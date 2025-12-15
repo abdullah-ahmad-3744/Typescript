@@ -36,7 +36,7 @@ function placeOrder(order, callback) {
 // Rest Parameter
 function total(...array) {
     let answer = 0;
-    array.forEach((vale) => answer =  answer + vale);
+    array.forEach((vale) => answer + vale);
     console.log("Answer is = ",answer);
 }
 total(10, 20, 30, 40);
