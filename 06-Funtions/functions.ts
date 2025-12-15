@@ -39,3 +39,11 @@ const sum = (a:number,b:number):number => {
     return a +b
 }
 sum(10,20)
+
+
+// Callback functions
+
+function placeOrder (order:number, callback:(amount:number)=> void):void {
+    const amount:number = order+10;
+    callback(amount)
+}

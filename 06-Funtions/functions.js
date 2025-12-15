@@ -28,4 +28,9 @@ const sum = (a, b) => {
     return a + b;
 };
 sum(10, 20);
+// Callback functions
+function placeOrder(order, callback) {
+    const amount = order + 10;
+    callback(amount);
+}
 //# sourceMappingURL=functions.js.map
