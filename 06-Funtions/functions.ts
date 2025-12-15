@@ -47,3 +47,13 @@ function placeOrder (order:number, callback:(amount:number)=> void):void {
     const amount:number = order+10;
     callback(amount)
 }
+
+
+// Rest Parameter
+function total (...array:number[]) {
+    let answer = 0
+    array.forEach( (vale) => answer+vale)
+    console.log(answer)
+}
+
+total(10,20,30,40)

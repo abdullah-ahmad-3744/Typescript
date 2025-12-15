@@ -33,4 +33,11 @@ function placeOrder(order, callback) {
     const amount = order + 10;
     callback(amount);
 }
+// Rest Parameter
+function total(...array) {
+    let answer = 0;
+    array.forEach((vale) => answer =  answer + vale);
+    console.log("Answer is = ",answer);
+}
+total(10, 20, 30, 40);
 //# sourceMappingURL=functions.js.map
